@@ -1,6 +1,6 @@
 def gitDownload(repo)
 {
-    git 'https://github.com/praveenvarma80/${repo}.git'
+    git "https://github.com/praveenvarma80/${repo}.git"
 }
 def buildArtifact()
 {
